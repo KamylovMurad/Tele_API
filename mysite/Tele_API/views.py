@@ -47,7 +47,6 @@ class SendVerificationView(APIView):
             phone_number = request.query_params.get('Phone number')
             if phone_number is None:
                 phone_number = request.data.get('phone_number')
-            print(phone_number)
         except AttributeError:
             return Response(
                 {
