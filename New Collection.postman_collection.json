@@ -1,0 +1,265 @@
+{
+	"info": {
+		"_postman_id": "b73e6566-5628-4f32-960d-68b4fd6196c0",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29206067"
+	},
+	"item": [
+		{
+			"name": "http://94.228.117.31//api/Send Code/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone_number\": 88005553535}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://94.228.117.31//api/Send Code/",
+					"protocol": "http",
+					"host": [
+						"94",
+						"228",
+						"117",
+						"31"
+					],
+					"path": [
+						"",
+						"api",
+						"Send Code",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://94.228.117.31/api/Verify Code/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phone_number\": 88005553535,\r\n    \"verification_code\": \"3137\"\r\n    }"
+				},
+				"url": {
+					"raw": "http://94.228.117.31/api/Verify Code/",
+					"protocol": "http",
+					"host": [
+						"94",
+						"228",
+						"117",
+						"31"
+					],
+					"path": [
+						"api",
+						"Verify Code",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://94.228.117.31/api/Profile/88005553535/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://94.228.117.31/api/Profile/88005553535/",
+					"protocol": "http",
+					"host": [
+						"94",
+						"228",
+						"117",
+						"31"
+					],
+					"path": [
+						"api",
+						"Profile",
+						"88005553535",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://94.228.117.31/api/Profile/88005553535/",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"invite_code\": \"oPde3L\"}"
+				},
+				"url": {
+					"raw": "http://94.228.117.31/api/Profile/88005553535/",
+					"protocol": "http",
+					"host": [
+						"94",
+						"228",
+						"117",
+						"31"
+					],
+					"path": [
+						"api",
+						"Profile",
+						"88005553535",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://94.228.117.31//api/Send Code/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone_number\": 98889996767}"
+				},
+				"url": {
+					"raw": "http://94.228.117.31//api/Send Code/",
+					"protocol": "http",
+					"host": [
+						"94",
+						"228",
+						"117",
+						"31"
+					],
+					"path": [
+						"",
+						"api",
+						"Send Code",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://94.228.117.31/api/Verify Code/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phone_number\": 98889996767,\r\n    \"verification_code\": \"0296\"\r\n    }"
+				},
+				"url": {
+					"raw": "http://94.228.117.31/api/Verify Code/",
+					"protocol": "http",
+					"host": [
+						"94",
+						"228",
+						"117",
+						"31"
+					],
+					"path": [
+						"api",
+						"Verify Code",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://94.228.117.31/api/Profile/98889996767/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://94.228.117.31/api/Profile/98889996767/",
+					"protocol": "http",
+					"host": [
+						"94",
+						"228",
+						"117",
+						"31"
+					],
+					"path": [
+						"api",
+						"Profile",
+						"98889996767",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://94.228.117.31/api/Profile/98889996767/",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"invite_code\": \"YvsSs0\"}"
+				},
+				"url": {
+					"raw": "http://94.228.117.31/api/Profile/98889996767/",
+					"protocol": "http",
+					"host": [
+						"94",
+						"228",
+						"117",
+						"31"
+					],
+					"path": [
+						"api",
+						"Profile",
+						"98889996767",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
